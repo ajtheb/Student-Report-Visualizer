@@ -60,7 +60,7 @@
 </form>
 </table>
 
-<a href="student_details.php"> Student details</a>
+
 
 </table>
 </form>
@@ -68,13 +68,29 @@
 <form action="add_course_to_student.php" method="POST">
 <table>
 <tr>
+<td>Student Roll number</td><td><input type="text" name="StudentId"></td>
+</tr>
+<tr>
 <td>CourseId</td><td><input type="text" name="CourseId"></td>
 </tr>
 <tr>
-<td>StudentRollnumber</td><td><input type="text" name="StudentId"></td>
-</tr>
-</tr>
 <td></td><td><button type="submit">submit</button></td>
+</tr>
+</form>
+</table>
+
+<h1> Add Course to Faculty</h1>
+<form action="add_course_to_faculty.php" method="POST">
+<table>
+<tr>
+<td>Faculty id</td><td><input type="text" name="FacultyId"></td>
+</tr>
+<tr>
+<td>CourseId</td><td><input type="text" name="CourseId"></td>
+</tr>
+<tr>
+<td></td><td><button type="submit">submit</button></td>
+</tr>
 </form>
 </table>
 </body>
